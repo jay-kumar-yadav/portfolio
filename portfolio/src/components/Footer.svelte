@@ -11,9 +11,8 @@ class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex
         <a href=" " target="_blank" class="text-violet-400"
             >9097088427<sup class=""
                 ><span class="text-xs scale-75 pl-0.5"
-                    ><i
-                        class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-                    /></span
+                    ><i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
+                    </span
                 ></sup
             ></a
         >

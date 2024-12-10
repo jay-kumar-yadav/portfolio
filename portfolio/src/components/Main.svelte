@@ -1,22 +1,22 @@
 <script>
   import Step from "./Step.svelte";
 
-   let steps = [
-     {
+  let steps = [
+    {
       name: "Chat application",
-      icon:"fa-solid fa-message",
+      icon: "fa-solid fa-message",
       description:
         "chat application is  created with React.js, expresjs and MonoDb is a real time chat application.",
-   },
+    },
     {
       name: "Chess Game",
       icon: "fa-solid fa-chess-king",
     },
     {
       name: "Portfolio",
-       icon:"fa-solid fa-user-tie",
-    }
-   ];
+      icon: "fa-solid fa-user-tie",
+    },
+  ];
 
   let benefits = [
     {
@@ -47,14 +47,13 @@
         <span class="poppins text-violet-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400"> favorite tech</span> includes JavaScript(React.JS or SvelteKit), TailwindCSS, Node.js + Express.js & Mysql MogoDB!
+        My <span class="text-violet-400"> favorite tech</span> includes JavaScript(React.JS
+        or SvelteKit), TailwindCSS, Node.js + Express.js & Mysql MogoDB!
       </p>
       <button
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
       >
-        <div
-          class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-        />
+      <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </button>
     </div>
@@ -80,26 +79,29 @@
       target="_blank"
       class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
     >
-      <i class="fa-regular fa-circle-play" />
+      <i class="fa-regular fa-circle-play"></i>
       <p>click me</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Chat application is  created with <strong
-            class="text-violet-400"
-            >React js  & Node.js + Express.js! and MongoDB</strong
-          >  In Chat application we can chat in real time and CRUD application that
-          allows a user to login and Register and chat with there friend in real time  .
+          Chat application is created with <strong class="text-violet-400"
+            >React js & Node.js + Express.js! and MongoDB</strong
+          > In Chat application we can chat in real time and CRUD application that
+          allows a user to login and Register and chat with there friend in real
+          time .
         </p>
       </Step>
       <Step step={steps[1]}>
         <p>
-          Chess Game  is a Full Stack <strong class="text-violet-400"
+          Chess Game is a Full Stack <strong class="text-violet-400"
             >React .js</strong
           >,
           <strong class="text-violet-400">Node.js + Express.js</strong>
-          & <strong class="text-violet-400"></strong>Enjoy a dynamic chess experience with intuitive gameplay,and multiplayer options. Track your moves,and refine your strategies. Perfect for players of all skill levels!"
+          & <strong class="text-violet-400"></strong>Enjoy a dynamic chess
+          experience with intuitive gameplay,and multiplayer options. Track your
+          moves,and refine your strategies. Perfect for players of all skill
+          levels!"
         </p>
       </Step>
       <Step step={steps[2]}>
@@ -107,8 +109,10 @@
           The Portfolio is a <strong class="text-violet-400"
             >SvelteKit & TailwindCSS</strong
           >
-          web applicatio
-          sleek and responsive portfolio using SvelteKit and Tailwind CSS. It showcases my projects, skills, and experience with smooth navigation, fast load times, and a modern design. Perfect for presenting work professionally and engaging visitors effectively.
+          web applicatio, sleek and responsive portfolio using SvelteKit and Tailwind
+          CSS. It showcases my projects, skills, and experience with smooth navigation,
+          fast load times, and a modern design. Perfect for presenting work professionally
+          and engaging visitors effectively.
         </p>
       </Step>
     </div>
@@ -117,7 +121,7 @@
     id="about"
     class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
   >
-     <div
+    <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
     >
       <h6 class="text-large sm:text-xl md:text-2xl">Want to know more?</h6>
@@ -154,7 +158,7 @@
       <table class="bg-white text-slate-700 rounded text-center">
         <thead class={"border-b border-solid border-slate-200  "}>
           <tr class="">
-            <th/>
+            <th></th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
@@ -169,40 +173,40 @@
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
               >Dedication</td
             >
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
               >Critical Thought</td
             >
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
           <tr>
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
               >Interpersonal Skills</td
             >
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
           <tr class="border-t border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
               >Progamming Ability</td
             >
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
         </tbody>
       </table>
